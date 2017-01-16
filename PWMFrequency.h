@@ -4,7 +4,7 @@
 // PWM FREQUENCY PRESCALER
 // -----------------------
 // Written by Kiwisincebirth 2014
-// Revised by MacTester57 (aka TheDIYGUY999) to allow correct PWM frequencies (confirmed with oscilloscope). January 2015
+// Revised by MacTester57 (aka TheDIYGuy999) to allow correct PWM frequencies (confirmed with oscilloscope). January 2015
 // - prescale variable: replaced uint8_t with uint16_t data type (fixes bug, which did not allow frequencies < 492Hz)
 // - mode variable: replaced hex format with binary to make it more readable, if compared with bit tables in the 32U4 manual
 // - added comments

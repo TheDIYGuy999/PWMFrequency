@@ -3,9 +3,11 @@ PWM Frequency Arduino Library
 
 Library for Setting the PWM Frequency
 
+Written by kiwisincebirth 2014
+
 Please keep in mind that changing the PWM frequency changes the Atmega's timers and disrupts the normal operation of many functions that rely on time (delay(), millis(), Servo library).
 
-This Library support both ATMega 328 and 32U4 (Leonardo)
+This Library supports both ATMega 328 and 32U4 (Leonardo)
 
 Example
 =======
@@ -31,7 +33,7 @@ http://playground.arduino.cc/Code/PwmFrequency
 Thanks to macegr of the Arduino forums for his documentation of the PWM frequency divisors. His post can be viewed at:
 http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?num=1235060559/0#4
 
-Thanks to mactester57 (aka TheDIYGuy999) for providing ATMega 32U4 testing
+Thanks to MacTester57 (aka TheDIYGuy999) for providing ATMega 32U4 testing
 http://www.tonymacx86.com/imac-mods/107859-kiwis-next-project-imac-g5-10.html#post765116
  
 Version History
